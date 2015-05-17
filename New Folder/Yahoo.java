@@ -17,7 +17,7 @@ public class Yahoo extends SeleneseTestCase {
 	public void testYahoo() throws Exception {
 		selenium.open("/config/login_verify2?.intl=in&.src=ym");
 		selenium.type("id=username", "harith08");
-		selenium.type("id=passwd", "Coimbatore08");
+		selenium.type("id=passwd", "88888888");
 		selenium.click("id=persistent");
 		selenium.click("id=.save");
 		selenium.click("id=yui_3_2_0_1_13228082566601749");

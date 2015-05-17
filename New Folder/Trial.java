@@ -20,7 +20,7 @@ public class Gmail extends SeleneseTestCase {
 		selenium.click("id=pa1");
 		selenium.waitForPageToLoad("80000");
 		selenium.type("id=Email", "harith08");
-		selenium.type("id=Passwd", "Coimbatore08");
+		selenium.type("id=Passwd", "88888888");
 		selenium.click("id=signIn");
 		'selenium.waitForPageToLoad("80000");
 		'selenium.selectFrame("c1xtkwzf67pa2g");
