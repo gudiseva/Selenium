@@ -1,0 +1,224 @@
+09:00:59.406 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to D:\WORK\Selenium\Web Testing\SeleniumIE.log
+09:00:59.406 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 21.1-b02
+09:00:59.406 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Windows XP 5.1 x86
+09:00:59.421 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.13.0, with Core v2.13.0. Built from revision 14793
+09:00:59.437 DEBUG [1] org.openqa.jetty.util.Container - add component: SocketListener0@0.0.0.0:4444
+09:00:59.468 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.jetty.http.ResourceCache@1d81ec9
+09:00:59.468 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.selenium.server.ProxyHandler in HttpContext[/,/]
+09:00:59.468 DEBUG [1] org.openqa.jetty.util.Container - add component: HttpContext[/,/]
+09:00:59.484 DEBUG [1] org.openqa.jetty.http.HttpServer - Added HttpContext[/,/] for host *
+09:00:59.484 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.jetty.http.ResourceCache@e7ce4c
+09:00:59.484 DEBUG [1] org.openqa.jetty.http.HttpContext - added SC{BASIC,null,user,CONFIDENTIAL} at /tests/html/basicAuth/*
+09:00:59.500 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.jetty.http.handler.SecurityHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.515 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.515 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.selenium.server.SessionExtensionJsHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.515 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.selenium.server.htmlrunner.SingleTestSuiteResourceHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.515 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.selenium.server.htmlrunner.SeleniumHTMLRunnerResultsHandler@9b774e
+09:00:59.515 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.selenium.server.CachedContentTestHandler@6cffbb
+09:00:59.515 DEBUG [1] org.openqa.jetty.util.Container - add component: HttpContext[/selenium-server,/selenium-server]
+09:00:59.515 DEBUG [1] org.openqa.jetty.http.HttpServer - Added HttpContext[/selenium-server,/selenium-server] for host *
+09:00:59.515 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.jetty.http.ResourceCache@1347d33
+09:00:59.562 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.selenium.server.SeleniumDriverResourceHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.562 DEBUG [1] org.openqa.jetty.util.Container - add component: HttpContext[/selenium-server/driver,/selenium-server/driver]
+09:00:59.562 DEBUG [1] org.openqa.jetty.http.HttpServer - Added HttpContext[/selenium-server/driver,/selenium-server/driver] for host *
+09:00:59.562 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.jetty.http.ResourceCache@10b755d
+09:00:59.687 DEBUG [1] org.openqa.jetty.util.Container - add component: WebDriver remote server
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.jetty.jetty.servlet.HashSessionManager@10cecb2
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - add component: org.openqa.jetty.jetty.servlet.ServletHandler@187d20c
+09:00:59.703 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - add component: HttpContext[/wd,/wd]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.HttpServer - Added HttpContext[/wd,/wd] for host *
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - Starting org.openqa.jetty.jetty.Server@14bc4e6
+09:00:59.703 INFO [1] org.openqa.jetty.http.HttpServer - Version Jetty/5.1.x
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.HttpServer - LISTENERS: [SocketListener0@0.0.0.0:4444]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.HttpServer - HANDLER: {null={/selenium-server/driver/*=[HttpContext[/selenium-server/driver,/selenium-server/driver]], /selenium-server/*=[HttpContext[/selenium-server,/selenium-server]], /=[HttpContext[/,/]], /wd/*=[HttpContext[/wd,/wd]]}}
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - Starting HttpContext[/selenium-server/driver,/selenium-server/driver]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.HttpContext - Init classloader from null, sun.misc.Launcher$AppClassLoader@6eb38a for HttpContext[/selenium-server/driver,/selenium-server/driver]
+09:00:59.703 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - Starting HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.HttpContext - Init classloader from null, sun.misc.Launcher$AppClassLoader@6eb38a for HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.handler.AbstractHttpHandler - Started org.openqa.jetty.http.handler.SecurityHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.handler.AbstractHttpHandler - Started org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.handler.AbstractHttpHandler - Started org.openqa.selenium.server.SessionExtensionJsHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.handler.AbstractHttpHandler - Started org.openqa.selenium.server.htmlrunner.SingleTestSuiteResourceHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.handler.AbstractHttpHandler - Started org.openqa.selenium.server.SeleniumDriverResourceHandler in HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/selenium-server,/selenium-server]
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - Starting HttpContext[/,/]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.HttpContext - Init classloader from null, sun.misc.Launcher$AppClassLoader@6eb38a for HttpContext[/,/]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.handler.AbstractHttpHandler - Started org.openqa.selenium.server.ProxyHandler in HttpContext[/,/]
+09:00:59.703 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/,/]
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - Starting HttpContext[/wd,/wd]
+09:00:59.703 DEBUG [1] org.openqa.jetty.http.HttpContext - Init classloader from null, sun.misc.Launcher$AppClassLoader@6eb38a for HttpContext[/wd,/wd]
+09:00:59.703 DEBUG [1] org.openqa.jetty.util.Container - Starting org.openqa.jetty.jetty.servlet.ServletHandler@187d20c
+09:00:59.703 DEBUG [1] org.openqa.jetty.jetty.servlet.AbstractSessionManager - New random session seed
+09:00:59.843 DEBUG [11] org.openqa.jetty.jetty.servlet.AbstractSessionManager - Session scavenger period = 30s
+09:00:59.843 DEBUG [1] org.openqa.jetty.jetty.servlet.Holder - Started holder of class org.openqa.selenium.remote.server.DriverServlet
+09:00:59.843 INFO [1] org.openqa.jetty.util.Container - Started org.openqa.jetty.jetty.servlet.ServletHandler@187d20c
+09:00:59.843 INFO [1] org.openqa.jetty.util.Container - Started HttpContext[/wd,/wd]
+09:00:59.859 INFO [1] org.openqa.jetty.http.SocketListener - Started SocketListener on 0.0.0.0:4444
+09:00:59.859 INFO [1] org.openqa.jetty.util.Container - Started org.openqa.jetty.jetty.Server@14bc4e6
+09:00:59.875 DEBUG [1] org.openqa.selenium.server.browserlaunchers.BrowserLauncherFactory - Requested browser string '*iexplore' matches *iexplore 
+09:00:59.875 DEBUG [1] org.openqa.selenium.server.browserlaunchers.ResourceExtractor - Extracting /core to C:\DOCUME~1\dl37\LOCALS~1\Temp\customProfileDir459859\core
+09:01:00.062 INFO [1] org.openqa.selenium.server.browserlaunchers.HTABrowserLauncher - Launching Embedded Internet Explorer...
+09:01:00.062 DEBUG [1] org.openqa.selenium.browserlaunchers.locators.BrowserLocator - Discovering Internet Explorer...
+09:01:00.062 DEBUG [1] org.openqa.selenium.browserlaunchers.locators.BrowserLocator - Checking whether Internet Explorer launcher at :'C:\Program Files\Internet Explorer\iexplore.exe' is valid...
+09:01:00.062 DEBUG [1] org.openqa.selenium.browserlaunchers.locators.BrowserLocator - Discovered valid Internet Explorer launcher  : 'C:\Program Files\Internet Explorer\iexplore.exe'
+09:01:00.093 INFO [1] org.openqa.selenium.server.browserlaunchers.HTABrowserLauncher - Launching Internet Explorer HTA...
+09:01:03.031 DEBUG [14] org.openqa.jetty.http.HttpConnection - new HttpConnection: Socket[addr=/127.0.0.1,port=2419,localport=4444]
+09:01:03.109 DEBUG [14] org.openqa.jetty.http.HttpConnection - REQUEST from SocketListener0@0.0.0.0:4444:
+GET /selenium-server/tests/BingTestSuite.html?thisIsChrome=false&thisIsHTA=true HTTP/1.1
+Accept: */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: localhost:4444
+Connection: keep-alive
+
+
+09:01:03.109 DEBUG [14] org.openqa.jetty.http.HttpServer - Try HttpContext[/selenium-server,/selenium-server],0
+09:01:03.109 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.jetty.http.handler.SecurityHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:03.109 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:03.125 INFO [14] org.openqa.jetty.util.Credential - Checking Resource aliases
+09:01:03.125 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - PATH=/tests/BingTestSuite.html RESOURCE=file:/D:/WORK/Selenium/HarithaTestCases/BingTestSuite.html
+09:01:03.125 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - Looking for file:/D:/WORK/Selenium/HarithaTestCases/BingTestSuite.html
+09:01:03.125 DEBUG [14] org.openqa.jetty.http.HttpContext - Handled by org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:03.125 DEBUG [14] org.openqa.jetty.http.HttpConnection - RESPONSE:
+HTTP/1.1 200 OK
+Date: Tue, 29 Nov 2011 03:31:03 GMT
+Server: Jetty/5.1.x (Windows XP/5.1 x86 java/1.7.0_01
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+Content-Length: 237
+Last-Modified: Sun, 26 Nov 2023 03:31:03 GMT
+Accept-Ranges: bytes
+
+
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.HttpConnection - REQUEST from SocketListener0@0.0.0.0:4444:
+GET /selenium-server/tests/bing.html?thisIsChrome=false&thisIsHTA=true HTTP/1.1
+Accept: */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: localhost:4444
+Connection: keep-alive
+
+
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.HttpServer - Try HttpContext[/selenium-server,/selenium-server],0
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.jetty.http.handler.SecurityHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - PATH=/tests/bing.html RESOURCE=file:/D:/WORK/Selenium/HarithaTestCases/bing.html
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - Looking for file:/D:/WORK/Selenium/HarithaTestCases/bing.html
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.HttpContext - Handled by org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:03.203 DEBUG [14] org.openqa.jetty.http.HttpConnection - RESPONSE:
+HTTP/1.1 200 OK
+Date: Tue, 29 Nov 2011 03:31:03 GMT
+Server: Jetty/5.1.x (Windows XP/5.1 x86 java/1.7.0_01
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+Content-Length: 917
+Last-Modified: Sun, 26 Nov 2023 03:31:03 GMT
+Accept-Ranges: bytes
+
+
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.HttpConnection - REQUEST from SocketListener0@0.0.0.0:4444:
+GET /selenium-server/tests/bing2.html?thisIsChrome=false&thisIsHTA=true HTTP/1.1
+Accept: */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: localhost:4444
+Connection: keep-alive
+
+
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.HttpServer - Try HttpContext[/selenium-server,/selenium-server],0
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.jetty.http.handler.SecurityHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - PATH=/tests/bing2.html RESOURCE=file:/D:/WORK/Selenium/HarithaTestCases/bing2.html
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - Looking for file:/D:/WORK/Selenium/HarithaTestCases/bing2.html
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.HttpContext - Handled by org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:07.890 DEBUG [14] org.openqa.jetty.http.HttpConnection - RESPONSE:
+HTTP/1.1 200 OK
+Date: Tue, 29 Nov 2011 03:31:07 GMT
+Server: Jetty/5.1.x (Windows XP/5.1 x86 java/1.7.0_01
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+Content-Length: 919
+Last-Modified: Sun, 26 Nov 2023 03:31:07 GMT
+Accept-Ranges: bytes
+
+
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.HttpConnection - REQUEST from SocketListener0@0.0.0.0:4444:
+GET /selenium-server/tests/bing3.html?thisIsChrome=false&thisIsHTA=true HTTP/1.1
+Accept: */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: localhost:4444
+Connection: keep-alive
+
+
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.HttpServer - Try HttpContext[/selenium-server,/selenium-server],0
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.jetty.http.handler.SecurityHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - PATH=/tests/bing3.html RESOURCE=file:/D:/WORK/Selenium/HarithaTestCases/bing3.html
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - Looking for file:/D:/WORK/Selenium/HarithaTestCases/bing3.html
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.HttpContext - Handled by org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:12.843 DEBUG [14] org.openqa.jetty.http.HttpConnection - RESPONSE:
+HTTP/1.1 200 OK
+Date: Tue, 29 Nov 2011 03:31:12 GMT
+Server: Jetty/5.1.x (Windows XP/5.1 x86 java/1.7.0_01
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+Content-Length: 920
+Last-Modified: Sun, 26 Nov 2023 03:31:12 GMT
+Accept-Ranges: bytes
+
+
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.HttpConnection - REQUEST from SocketListener0@0.0.0.0:4444:
+POST /selenium-server/postResults HTTP/1.1
+Accept: */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Host: localhost:4444
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 5368
+Cache-Control: no-cache
+
+
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.HttpServer - Try HttpContext[/selenium-server,/selenium-server],0
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.jetty.http.handler.SecurityHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.StaticContentHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:24.828 INFO [14] org.openqa.jetty.util.Credential - Checking Resource aliases
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - PATH=/postResults RESOURCE=file:/D:/Program%20Files/Java/Selenium%20RC%20Server/MISSING%20RESOURCE
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.handler.ResourceHandler - Looking for file:/D:/Program%20Files/Java/Selenium%20RC%20Server/MISSING%20RESOURCE
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.SessionExtensionJsHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.htmlrunner.SingleTestSuiteResourceHandler in HttpContext[/selenium-server,/selenium-server]
+09:01:24.828 DEBUG [14] org.openqa.jetty.http.HttpContext - Handler org.openqa.selenium.server.htmlrunner.SeleniumHTMLRunnerResultsHandler@9b774e
+09:01:24.828 INFO [14] org.openqa.selenium.server.htmlrunner.SeleniumHTMLRunnerResultsHandler - Received posted results
+09:01:24.875 DEBUG [14] sun.awt.windows.WToolkit - Win version: 0xa280105 = 170393861 (Windows XP)
+09:01:24.921 DEBUG [14] org.openqa.jetty.http.HttpContext - Handled by org.openqa.selenium.server.htmlrunner.SeleniumHTMLRunnerResultsHandler@9b774e
+09:01:24.921 DEBUG [14] org.openqa.jetty.http.HttpConnection - RESPONSE:
+HTTP/1.1 200 OK
+Date: Tue, 29 Nov 2011 03:31:24 GMT
+Server: Jetty/5.1.x (Windows XP/5.1 x86 java/1.7.0_01
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+
+
+09:01:25.093 INFO [1] org.openqa.selenium.os.CommandLine - Process destruction entered a last-ditch phase that shouldn't happen. File an issue if you see this message
+09:01:28.109 INFO [1] org.openqa.selenium.os.CommandLine - Command failed to close cleanly. Destroying forcefully. org.apache.commons.exec.DefaultExecutor@d874b5
+09:02:01.656 DEBUG [14] org.openqa.jetty.http.HttpConnection - java.net.SocketException: Connection reset
+09:02:01.687 INFO [15] org.openqa.selenium.server.SeleniumServer - Shutting down...
